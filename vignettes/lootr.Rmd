@@ -1,0 +1,19 @@
+---
+title: "lootr"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{lootr}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(lootr)
+```
